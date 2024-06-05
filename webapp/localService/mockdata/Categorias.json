@@ -1,0 +1,26 @@
+[
+    {
+        "Category": "Laptops",
+        "Description": "Notebook",
+        "__metadata": {
+            "uri": "/Categorias('Laptops')",
+            "type": "cds_zsd__producao_362.CategoriasType"
+        }
+    },
+    {
+        "Category": "Audio",
+        "Description": "",
+        "__metadata": {
+            "uri": "/Categorias('Audio')",
+            "type": "cds_zsd__producao_362.CategoriasType"
+        }
+    },
+    {
+        "Category": "Monitors",
+        "Description": "",
+        "__metadata": {
+            "uri": "/Categorias('Monitors')",
+            "type": "cds_zsd__producao_362.CategoriasType"
+        }
+    }
+]

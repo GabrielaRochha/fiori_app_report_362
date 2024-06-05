@@ -1,0 +1,50 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="br.com.gestao.fioriappreport362.controller.Objetos" displayBlock="true"><Page id="page" title="{i18n>title}">
+        <content>
+            <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panel0">
+                <headerToolbar>
+                    <Toolbar id="toolbar1">
+                        <Title text="Header" id="headerTitle"/>
+                        <ToolbarSpacer id="_IDGenToolbarSpacer1"/>
+                        <Button id="btnSettings" icon="sap-icon://settings"/>
+                        </Toolbar>
+                    
+                </headerToolbar>
+                <content>
+                    <List noDataText="Drop list items here" id="list1">
+                        <items>
+                            <StandardListItem type="Navigation" title="List Item 1" description="Description text 1" icon="sap-icon://picture" id="item0"/>
+                            <StandardListItem type="Navigation" title="List Item 2" description="Description text 2" icon="sap-icon://picture" id="item1"/>
+                        </items>
+                    <infoToolbar>
+                        <Toolbar width="100%" id="toolbar1_1711539523035">
+                            <content>
+                                <Text xmlns="sap.m" text="Informação Adicional List" id="text1"/>
+                            </content>
+                        </Toolbar>
+                    </infoToolbar>
+                    </List>
+                </content>
+                </Panel>
+                <Button xmlns="sap.m" text="Alterar o Texto do objeto Header" press="onClicaSet" id="button1" icon="sap-icon://activate"/>
+                <Button xmlns="sap.m" text="Ler o Objeto Title Header" press="onClicaGet" id="button0" icon="sap-icon://activate"/>
+                <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panel_formulario">
+                    <headerToolbar>
+                        <Toolbar id="toolbar2">
+                            <Title id="_IDGenTitle1" text="Header"/>
+                            <ToolbarSpacer id="_IDGenToolbarSpacer2"/>
+                            <Button id="_IDGenButton1" icon="sap-icon://settings"/>
+                            </Toolbar>
+                        
+                    </headerToolbar>
+                    <content>
+                        <Text text="Panel Content" id="text2"/>
+                        
+                        </content>
+                    </Panel>
+                <Button xmlns="sap.m" text="Criar um novo formulário runtime" press="addFormulario" id="button1_1711543369370" icon="sap-icon://activate"/>
+
+        </content>
+    
+
+    </Page>
+</mvc:View>

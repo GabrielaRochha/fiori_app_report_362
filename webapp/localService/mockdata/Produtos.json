@@ -1,0 +1,137 @@
+[
+    {
+        "Productid": "HT-1000",
+        "Name": "Notebook Basic 15",
+        "Description": "Um notebook elegante e eficiente, perfeito para trabalho e entretenimento. Possui tela de alta definição, desempenho rápido e design moderno.",
+        "Category": "Laptops",
+        "Supplierid": "055640001",
+        "Measureunit": "Unit",
+        "Weightmeasure": 1.9,
+        "Weightunit": "kg",
+        "Price": 1899.99,
+        "Currencycode": "BRL",
+        "Width": 360,
+        "Depth": 240,
+        "Height": 20,
+        "Dimunit": "mm",
+        "Createdat": "/Date(1619561472000)/",
+        "Changedat": "/Date(1649433796000)/",
+        "Status": "E",
+        "Usercreate": "Admin",
+        "Userupdate": "John Doe",
+        "Suppliername": "TechZone Inc.",
+        "to_cat": {
+            "__deferred": {
+                "uri": "/Produtos('HT-1000')/to_cat"
+            }
+        }
+    },
+    {
+        "Productid": "HT-1010",
+        "Name": "Premium Smart Speaker",
+        "Description": "Desfrute de som imersivo e controle inteligente com este alto-falante premium. Conecte-se facilmente a dispositivos compatíveis e transforme sua experiência de áudio.",
+        "Category": "Audio",
+        "Supplierid": "055640002",
+        "Measureunit": "Unit",
+        "Weightmeasure": 2.5,
+        "Weightunit": "kg",
+        "Price": 2299.99,
+        "Currencycode": "BRL",
+        "Width": 150,
+        "Depth": 150,
+        "Height": 300,
+        "Dimunit": "mm",
+        "Createdat": "/Date(1604002172000)/",
+        "Changedat": "/Date(1641123796000)/",
+        "Status": "E",
+        "Usercreate": "Admin",
+        "Userupdate": "Jane Smith",
+        "Suppliername": "AudioTech Solutions",
+        "to_cat": {
+            "__deferred": {
+                "uri": "/Produtos('HT-1010')/to_cat"
+            }
+        }
+    },
+    {
+        "Productid": "HT-1020",
+        "Name": "UltraWide Gaming Monitor",
+        "Description": "Experimente jogos de alta performance e gráficos vibrantes com este monitor ultrawide. Aumente sua imersão e aproveite cada detalhe.",
+        "Category": "Monitors",
+        "Supplierid": "055640003",
+        "Measureunit": "Unit",
+        "Weightmeasure": 7.2,
+        "Weightunit": "kg",
+        "Price": 2899.99,
+        "Currencycode": "BRL",
+        "Width": 1000,
+        "Depth": 200,
+        "Height": 400,
+        "Dimunit": "mm",
+        "Createdat": "/Date(1624873172000)/",
+        "Changedat": "/Date(1639912796000)/",
+        "Status": "P",
+        "Usercreate": "Admin",
+        "Userupdate": "Michael Johnson",
+        "Suppliername": "GameTech Store",
+        "to_cat": {
+            "__deferred": {
+                "uri": "/Produtos('HT-1020')/to_cat"
+            }
+        }
+    },
+    {
+        "Productid": "HT-1030",
+        "Name": "Smart Home Security Camera",
+        "Description": "Mantenha sua casa protegida com esta câmera de segurança inteligente. Visualize vídeos em tempo real e receba alertas no seu smartphone.",
+        "Category": "Security",
+        "Supplierid": "055640004",
+        "Measureunit": "Unit",
+        "Weightmeasure": 0.5,
+        "Weightunit": "kg",
+        "Price": 2129.99,
+        "Currencycode": "BRL",
+        "Width": 80,
+        "Depth": 80,
+        "Height": 120,
+        "Dimunit": "mm",
+        "Createdat": "/Date(1597345172000)/",
+        "Changedat": "/Date(1645310796000)/",
+        "Status": "F",
+        "Usercreate": "Admin",
+        "Userupdate": "Sarah Brown",
+        "Suppliername": "SecureTech Inc.",
+        "to_cat": {
+            "__deferred": {
+                "uri": "/Produtos('HT-1030')/to_cat"
+            }
+        }
+    },
+    {
+        "Productid": "HT-1040",
+        "Name": "Wireless Noise-Cancelling Headphones",
+        "Description": "Desfrute de áudio imersivo e livre de ruídos com estes fones de ouvido sem fio. Perfeitos para viagens e momentos de relaxamento.",
+        "Category": "Audio",
+        "Supplierid": "055640005",
+        "Measureunit": "Unit",
+        "Weightmeasure": 0.3,
+        "Weightunit": "kg",
+        "Price": 2149.99,
+        "Currencycode": "BRL",
+        "Width": 160,
+        "Depth": 160,
+        "Height": 40,
+        "Dimunit": "mm",
+        "Createdat": "/Date(1610244172000)/",
+        "Changedat": "/Date(1647226796000)/",
+        "Status": "P",
+        "Usercreate": "Admin",
+        "Userupdate": "Emily White",
+        "Suppliername": "SoundTech Solutions",
+        "to_cat": {
+            "__deferred": {
+                "uri": "/Produtos('HT-1040')/to_cat"
+            }
+        }
+    }
+]

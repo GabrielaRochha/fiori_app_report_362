@@ -1,0 +1,73 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="br.com.gestao.fioriappreport362.controller.DataBinding" displayBlock="true">
+<Page id="page" title="{i18n>title}">
+        <content>
+            <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panel0">
+                <headerToolbar>
+                    <Toolbar id="toolbar1">
+                        <Title text="Model via Serviço OData" id="headerTitle"/>
+                        <ToolbarSpacer id="_IDGenToolbarSpacer1"/>
+                        <Button id="btnSettings" icon="sap-icon://settings"/>
+                        </Toolbar>
+                    
+                </headerToolbar>
+                <content>
+                    <List noDataText="Sem Produtos Disponíveis" id="list1" items="{/Produtos}">
+                    <infoToolbar>
+                        <Toolbar width="100%" id="toolbar1_1711539523035">
+                            <content>
+                                <Text xmlns="sap.m" text="Informação Adicional List" id="text1"/>
+                            </content>
+                        </Toolbar>
+                    </infoToolbar>
+                    <items>
+                        <StandardListItem type="Navigation" title="{Productid}" description="{Name}" icon="sap-icon://picture" id="item0"/>
+                    </items>
+                    </List>
+                </content>
+                </Panel>
+            <Toolbar id="toolbar1_1712250986755">
+                        <Title id="_IDGenTitle1" text="Model via Arquivo JSON"/>
+                        <ToolbarSpacer id="_IDGenToolbarSpacer2"/>
+                        <Button id="_IDGenButton1" icon="sap-icon://settings"/>
+                        </Toolbar>
+            <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panel0_1712250986755">
+                <headerToolbar>
+                    
+                </headerToolbar>
+                <content>
+                    <List noDataText="Sem Produtos Disponíveis" id="list0" items="{Model_JSON_Produtos>/Produtos}">
+                    <items>
+                        <StandardListItem xmlns="sap.m" type="Navigation" icon="sap-icon://picture" id="item0_1712254293191" title="{Model_JSON_Produtos>ProductName}" description="{Model_JSON_Produtos>Description}"/>
+                    </items>
+                    </List>
+                </content>
+                </Panel>
+            <Panel xmlns="sap.m" width="auto" expandable="true" expanded="true" id="panel0_1712928748080">
+                <headerToolbar>
+                    <Toolbar id="toolbar1_1712928748080">
+                        <Title id="_IDGenTitle2" text="Header"/>
+                        <ToolbarSpacer id="_IDGenToolbarSpacer3"/>
+                        <Button id="_IDGenButton2" icon="sap-icon://settings"/>
+                        </Toolbar>
+                    
+                </headerToolbar>
+                <content>
+                    <Text text="Panel Content" id="text2"/>
+                    <sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="form_regions">
+                        <sap.ui.layout.form:content>
+                            <sap.ui.core:Title text="Binding Element" id="title1"/>
+                            <Label text="Nome da Região" id="label0"/>
+                            <Input width="100%" id="input0"/>
+                            <Label text="Cidade / País" id="label1"/>
+                            <Input width="100%" id="input2"/>
+                            <Label text="Acessar região" width="100%" id="label2"/>
+                            <Button xmlns="sap.m" text="Binding Element" id="button1" icon="sap-icon://add"/></sap.ui.layout.form:content>
+                    </sap.ui.layout.form:SimpleForm>
+                    </content>
+                </Panel>
+
+        </content>
+    
+
+    </Page>
+</mvc:View>
